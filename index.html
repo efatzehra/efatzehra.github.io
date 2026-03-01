@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Effat Zehra | Portfolio</title>
+    
+    <!-- Stylish Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com" rel="stylesheet">
+
+    <style>
+        /* Base page styling */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #ffffff; /* Clean white background */
+            color: #1a1a1a;
+            overflow: hidden;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        /* "Na In" (I am) Style */
+        .intro {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 300;
+            text-transform: uppercase;
+            letter-spacing: 0.5rem; /* Wide spacing for a modern look */
+            color: #777; /* Softer grey so the name stands out */
+            margin-bottom: 0.5rem;
+            animation: fadeInDown 1.5s ease-out;
+        }
+
+        /* "Effat Zehra" Style */
+        .name {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(4rem, 10vw, 8rem); /* Responsive sizing */
+            font-style: italic;
+            font-weight: 700;
+            line-height: 1.1;
+            margin: 0;
+            color: #111;
+            animation: fadeInUp 1.5s ease-out;
+        }
+
+        /* Subtle underline effect */
+        .underline {
+            width: 50px;
+            height: 3px;
+            background-color: #c5a059; /* Elegant gold/brass accent */
+            margin: 20px auto;
+            border-radius: 2px;
+        }
+
+        /* Simple entrance animations */
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="intro">Na In</div>
+        <div class="name">Effat Zehra</div>
+        <div class="underline"></div>
+    </div>
+
+</body>
+</html>
